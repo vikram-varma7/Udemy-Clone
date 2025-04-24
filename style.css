@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* navbar */
+
+
+.navbar{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+
+}
+
+.navbar__s1__title{
+    color: #A435F0;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* catagories */
+
+.catagories{
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+}
+
+.catagories p {
+    background-color: #A435F0;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* recommended */
+
+.recommended{
+    padding: 10px;
+}
+
+.recommended__container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course-card{
+    width:350px;
+    
+}
+
+.course-card img{
+    width: 100%;
+    height: 60%;
+}
+
+/* topic */
+
+.topic{
+    padding: 10px;
+}
+
+.topic-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.topic-container p{
+    border: 2px solid gray;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.footer-1{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1 p{
+    margin-bottom: 10px;
+}
